@@ -1,4 +1,4 @@
-package org.example.banco;
+package banco;
 
 
     public class ContaBancaria {

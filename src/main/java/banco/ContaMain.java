@@ -1,4 +1,4 @@
-package org.example.banco;
+package banco;
 
 import java.util.Locale;
 import java.util.Scanner;

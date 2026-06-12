@@ -1,4 +1,4 @@
-package org.example;
+package Carro;
 
 public class Car {
     private int velocidade;

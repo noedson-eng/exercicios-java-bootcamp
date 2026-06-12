@@ -1,4 +1,4 @@
-package org.example;
+package petshop;
 
 public class MaquinaBanho {
 

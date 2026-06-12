@@ -1,4 +1,4 @@
-package org.example;
+package petshop;
 
 import java.util.Locale;
 import java.util.Scanner;

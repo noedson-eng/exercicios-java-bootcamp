@@ -11,25 +11,15 @@ package banco;
             return saldo;
         }
 
-        public void setSaldo(double saldo) {
-            this.saldo = saldo;
-        }
-
         public double getChequeEspecial() {
             return chequeEspecial;
         }
 
-        public void setChequeEspecial(double chequeEspecial) {
-            this.chequeEspecial = chequeEspecial;
-        }
 
         public double getChequeEspecialUsado() {
             return chequeEspecialUsado;
         }
 
-        public void setChequeEspecialUsado(double chequeEspecialUsado) {
-            this.chequeEspecialUsado = chequeEspecialUsado;
-        }
 
         public ContaBancaria(double depositoInicial) {
             this.saldo = depositoInicial;
@@ -87,7 +77,7 @@ package banco;
             System.out.printf("Limite de Cheque Especial: R$ %.2f\n", this.chequeEspecial);
             System.out.printf("Valor do Cheque Utilizado: R$ %.2f\n", this.chequeEspecialUsado);
             double disponivelTotal = this.saldo + (this.chequeEspecial - this.chequeEspecialUsado);
-            System.out.printf("Total disponivel para saque: R$ %.2fn", disponivelTotal);
+            System.out.printf("Total disponivel para saque: R$ %.2f\n", disponivelTotal);
         }
     }
 
